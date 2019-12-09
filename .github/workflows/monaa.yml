@@ -1,0 +1,13 @@
+name: 'run monaa'
+description: 'run monaa using the docker image'
+
+on: [push]
+
+jobs:
+  monaa:
+    image: maswag/monaa
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Run monaa help
+      run : monaa -h
