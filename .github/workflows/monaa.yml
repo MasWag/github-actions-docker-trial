@@ -1,5 +1,4 @@
 name: 'run monaa'
-description: 'run monaa using the docker image'
 
 on: [push]
 
