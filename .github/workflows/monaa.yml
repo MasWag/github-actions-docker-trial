@@ -4,7 +4,8 @@ on: [push]
 
 jobs:
   monaa:
-    image: maswag/monaa
+    container:
+      image: maswag/monaa
     runs-on: ubuntu-latest
 
     steps:
