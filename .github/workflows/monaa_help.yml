@@ -1,4 +1,4 @@
-name: 'run monaa'
+name: 'run monaa help'
 
 on: [push]
 

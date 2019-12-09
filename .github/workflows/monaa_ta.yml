@@ -1,0 +1,14 @@
+name: 'run monaa using TA'
+
+on: [push]
+
+jobs:
+  monaa:
+    container:
+      image: maswag/monaa
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run monaa
+      run : monaa -f small.dot -i small.txt
